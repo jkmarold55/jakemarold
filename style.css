@@ -1,148 +1,244 @@
-/* Navbar styles */
-.navbar {
-	background-color: #f8f9fa;
-	padding: 10px;
-	border-bottom: 1px solid #dee2e6;
-}
+/* Custom styles for the site */
 
-.navbar-brand {
-	font-weight: bold;
-	font-size: 1.5rem;
-	color: #343a40;
-}
+/* Jumbotron */
 
-/* Jumbotron styles */
 .jumbotron {
-	background-image: url("https://picsum.photos/1200/600");
+	background-color: #6c757d;
+	color: #fff;
+	height: 500px;
+	background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba");
 	background-size: cover;
 	background-position: center;
-	height: 500px;
-	text-align: center;
-	color: #fff;
+	padding: 100px 0;
 }
 
 .jumbotron h1 {
 	font-size: 5rem;
-	margin-top: 150px;
-}
-
-/* About section styles */
-#about {
-	padding: 100px 0;
-	background-color: #f8f9fa;
-}
-
-#about h2 {
-	text-align: center;
+	font-weight: bold;
 	margin-bottom: 50px;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
 }
 
-/* Resume section styles */
-#experience {
-	padding: 100px 0;
-	background-color: #fff;
-}
-
-.resume-section {
-	margin-top: 50px;
-}
-
-.resume-item {
-	padding: 50px 0;
-	border-bottom: 1px solid #dee2e6;
-}
+/* Resume section */
 
 .resume-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	margin-bottom: 30px;
 }
 
 .resume-header h3 {
+	font-size: 3rem;
 	font-weight: bold;
-	font-size: 2rem;
+	margin-bottom: 0;
 }
 
 .resume-header h4 {
 	font-size: 1.5rem;
-	color: #6c757d;
-	margin-bottom: 10px;
-}
-
-.resume-header h5 {
-	color: #6c757d;
-	margin-bottom: 30px;
-}
-
-/* Contact section styles */
-#contact {
-	padding: 100px 0;
-	background-color: #f8f9fa;
-}
-
-#contact h2 {
-	text-align: center;
-	margin-bottom: 50px;
-}
-
-/* Footer styles */
-footer {
-	padding: 20px 0;
-	background-color: #343a40;
-	color: #fff;
-	text-align: center;
-}
-
-footer p {
 	margin-bottom: 0;
 }
 
-/* Custom styles */
-.container {
-	max-width: 960px;
-	margin: 0 auto;
+.resume-header h5 {
+	font-size: 1.2rem;
+	margin-bottom: 0;
+	color: #6c757d;
+	font-weight: bold;
 }
 
-.btn {
-	border-radius: 20px;
-}
-
-.btn-primary {
-	background-color: #007bff;
-	border-color: #007bff;
-}
-
-.btn-primary:hover {
-	background-color: #0069d9;
-	border-color: #0062cc;
-}
-
-.card {
-	border-radius: 10px;
-	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
-}
-
-.card-header {
-	background-color: #007bff;
-	color: #fff;
-}
-
-.card-body {
-	color: #000;
-}
-
-.avatar {
-	border-radius: 50%;
-	width: 200px;
-	height: 200px;
-	object-fit: cover;
+.resume-section {
 	margin-bottom: 50px;
+}
+
+.resume-section h3 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.resume-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.resume-item h4 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.resume-item p {
+	margin-bottom: 0;
+}
+
+.resume-item span {
+	color: #6c757d;
+}
+
+.resume-item i {
+	margin-right: 10px;
+	color: #6c757d;
+}
+
+/* About section */
+
+.about-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.about-header h3 {
+	font-size: 3rem;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.about-header h4 {
+	font-size: 1.5rem;
+	margin-bottom: 0;
+}
+
+.about-header h5 {
+	font-size: 1.2rem;
+	margin-bottom: 0;
+	color: #6c757d;
+	font-weight: bold;
+}
+/* Custom styles for the site */
+
+/* About section (cont.) */
+
+.about-section {
+	margin-bottom: 50px;
+}
+
+.about-section img {
+	margin-right: 30px;
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.about-text {
+	max-width: 600px;
+}
+
+.about-text h3 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.about-text p {
+	font-size: 1.2rem;
+	margin-bottom: 30px;
+	line-height: 1.5;
+}
+
+/* Contact section */
+
+.contact-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.contact-header h3 {
+	font-size: 3rem;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.contact-header h4 {
+	font-size: 1.5rem;
+	margin-bottom: 0;
+}
+
+.contact-header h5 {
+	font-size: 1.2rem;
+	margin-bottom: 0;
+	color: #6c757d;
+	font-weight: bold;
+}
+
+.contact-section {
+	margin-bottom: 50px;
+}
+
+.contact-info {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.contact-info i {
+	font-size: 2rem;
+	margin-right: 20px;
+	color: #6c757d;
+}
+
+.contact-info p {
+	font-size: 1.2rem;
+	margin-bottom: 0;
+}
+
+.social-links {
+	display: flex;
+	align-items: center;
 }
 
 .social-link {
 	font-size: 2rem;
-	color: #007bff;
-	transition: all 0.3s;
+	margin-right: 20px;
+	color: #6c757d;
+	transition: color 0.3s ease-in-out;
 }
 
 .social-link:hover {
 	color: #0069d9;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+	.jumbotron {
+		height: 300px;
+	}
+
+	.jumbotron h1 {
+		font-size: 3rem;
+		margin-top: 100px;
+	}
+
+	.resume-header h3 {
+		font-size: 1.5rem;
+	}
+
+	.resume-header h4 {
+		font-size: 1rem;
+	}
+
+	.resume-header h5 {
+		font-size: 0.9rem;
+	}
+
+	.avatar {
+		width: 150px;
+		height: 150px;
+		margin-bottom: 30px;
+	}
+
+	.contact-info i {
+		font-size: 1.5rem;
+		margin-right: 10px;
+	}
+
+	.social-link {
+		font-size: 1.5rem;
+	}
 }
